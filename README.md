@@ -17,9 +17,8 @@ Since the **[prototype on figma](https://www.figma.com/file/iwTpVuhCe5GgBtVYnB2l
  **The final result you can see [➡here⬅](https://bumboobee.github.io/SW-news/)**
  
 <div align="center">
+![spiderman-stan-lee](https://user-images.githubusercontent.com/94147847/155893979-c2b0e861-603e-45a6-aed6-214abda514d6.gif)
 
  > A journey of a thousand miles begins with a single step.
  >> **Stanley Martin Lieber**
 <div \> 
-
-https://bumboobee.github.io/SW-news/
