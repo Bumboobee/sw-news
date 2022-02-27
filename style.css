@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Hind:wght@300&family=Nanum+Gothic&family=Noto+Sans+JP:wght@300&family=Poppins:wght@200&display=swap");
+:root {
+  --standard-white: #fff;
+  --standard-black: #000;
+  --standard-grey: #807878;
+  --hover-color: #2fe0ff;
+  --focus-color: #b300ca;
+  --title-color: #0c2ff4;
+  --subtitle-color: #0f27af;
+  --dark-grey: #181717;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--standard-black);
+}
+.logo {
+  width: 80px;
+  max-height: 62px;
+  transition: 0.2s ease;
+}
+.logo:hover {
+  transform: rotateX(180deg);
+  transition: 0.2s ease;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.animation {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-left: 50px;
+}
+#welcome {
+  color: var(--title-color);
+  font-weight: 700;
+  font-family: "Cairo";
+  font-size: 1.6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+}
+.typing-animation {
+  animation: blinkcursor 500ms steps(40) infinite normal,
+    typing 4s steps(40) 1s normal;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 15em;
+  }
+}
+@keyframes blinkcursor {
+  from {
+    border-right-color: var(--standard-grey);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+nav img {
+  width: 150px;
+}
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+.nav-links ul li a {
+  color: var(--subtitle-color);
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: "Nanum Gothic";
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: var(--hover-color);
+  display: block;
+  margin: auto;
+  transition: 0.4s;
+}
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+nav .fa {
+  display: none;
+}
+nav .fas {
+  display: none;
+}
+.hero {
+  color: var(--standard-white);
+  min-height: 70vh;
+  width: 100%;
+}
+.inicial-title {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  color: var(--title-color);
+  text-transform: uppercase;
+  font-family: "Noto Sans JP";
+}
+.focus {
+  color: var(--focus-color);
+  font-weight: 900;
+}
+.inicial-title span {
+  font-weight: 900;
+  color: var(--subtitle-color);
+}
+span {
+  color: var(--title-color);
+}
+.inicial-content {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.inicial-content .inicial-img {
+  width: 100%;
+}
+.inicial-content .inicial-img img {
+  display: block;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  margin-top: 50px;
+  box-shadow: 0px 0px 10px 2px var(--standard-white);
+}
+.inicial-content .inicial-img video {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 840px;
+  height: 500px;
+  margin: 5px;
+  box-shadow: 0px 0px 10px 2px var(--standard-white);
+  background-size: cover;
+  object-fit: cover;
+}
+.news-container {
+  display: flex;
+  flex-direction: row;
+  min-height: 70vh;
+  width: 100%;
+}
+
+.info h3 {
+  color: var(--subtitle-color);
+  font-size: 1.8rem;
+  font-family: "Noto Sans JP";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.info p {
+  color: var(--standard-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin: 20px;
+  font-family: "Noto Sans JP";
+  font-size: 1.4rem;
+}
+.trailers {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-right: 50px;
+}
+.trailers h4 {
+  display: flex;
+  color: var(--subtitle-color);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: "Nanum Gothic";
+  font-size: 1.4rem;
+}
+.trailers iframe {
+  width: 500px;
+  height: 300px;
+}
+.movies-series h3 {
+  font-family: "Noto Sans JP";
+  color: var(--subtitle-color);
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+.next-movies {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+.next-movies span img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  max-height: 300px;
+}
+.next-movies span p {
+  color: var(--standard-grey);
+  font-family: "Noto Sans JP";
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.footerr__container {
+  background-color: var(--dark-grey);
+  padding: 2rem 0;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social__icon--link:hover {
+  color: var(--standard-white);
+  transition: all 0.2s ease-in-out;
+}
+.social__icon--link {
+  color: var(--standard-grey);
+  font-size: 24px;
+}
+.social__media {
+  max-width: 1000px;
+  width: 100%;
+}
+.social__media--wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+.social__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+.social__logo {
+  color: var(--standard-white);
+  justify-self: flex-start;
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.website__right {
+  font-family: "Hind";
+  color: var(--standard-grey);
+}
+
+@media (max-width: 700px) {
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links {
+    position: absolute;
+    background: var(--dark-grey);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav i.fa,
+  nav i.fas {
+    display: block;
+    color: var(--subtitle-color);
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  nav i.fa:hover,
+  nav i.fas:hover {
+    color: var(--hover-color);
+  }
+  #welcome {
+    display: block;
+    margin: 0 auto;
+    font-size: 0.6rem;
+  }
+  .nav-links ul {
+    padding: 30px;
+  }
+
+  .inicial-title h1 {
+    font-size: 1.1rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .inicial-content {
+    flex-direction: column;
+    margin: 0;
+  }
+  .inicial-content .inicial-img video {
+    width: 90%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .inicial-content .inicial-img img {
+    width: 140px;
+    height: 220px;
+    display: block;
+    margin: 40px auto;
+  }
+  .news-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    display: block;
+  }
+  .info h3 {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .info p {
+    font-size: 12px;
+    text-align: center;
+  }
+  .trailers {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-right: 50px;
+  }
+  .trailers h4 {
+    font-size: 10px;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .trailers iframe {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  .next-movies {
+    flex-direction: column;
+  }
+  .next-movies span img {
+    flex-direction: column;
+    display: block;
+    margin: 10px auto;
+    width: 140px;
+    max-height: 40%;
+  }
+  .movies-series h3 {
+    font-size: 0.9rem;
+  }
+  .footerr__logo {
+    margin-bottom: 1rem;
+  }
+  .website__rights {
+    margin-bottom: 1rem;
+  }
+  .footerr__link--wrapper {
+    flex-direction: column;
+  }
+  .social__media--wrap {
+    flex-direction: column;
+  }
+  .footerr__container {
+    margin: 0 auto;
+    display: block;
+  }
+  .social__icons a {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
