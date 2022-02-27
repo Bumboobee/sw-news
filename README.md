@@ -2,7 +2,7 @@
 The **[SW news](https://bumboobee.github.io/SW-news/)** is the place to see the latest [Mavel](https://www.marvel.com/) works and get alert for what is coming.
 
 That project has a special place in my heart... This is the **update version** of my **[first web project](https://bumboobee.github.io/SW-news/)**, 
-back in november 2021, when i first mett the **[front-end world ❤]()**
+back in november 2021, when i first mett the **[front-end world ❤](https://github.com/Bumboobee?tab=repositories)**
 
 The colors can be a little messy but is for a good reason ☺, I wanted to keep the layout and the original colors as the original one does ***(probably i never post this version 😶 - so messy)***.
 
@@ -18,8 +18,8 @@ Since the **[prototype on figma](https://www.figma.com/file/iwTpVuhCe5GgBtVYnB2l
  
 <div align="center">
 
- [![817fe4c2e59bf049fc4b8bdf145a41d2](https://user-images.githubusercontent.com/94147847/153870372-b66c939c-ac56-4e61-ad5c-a239d0b4badc.gif)](https://bumboobee.github.io/SW-news/)
-
  > A journey of a thousand miles begins with a single step.
- >> **Lao Tzu**
+ >> **Stanley Martin Lieber**
 <div \> 
+
+https://bumboobee.github.io/SW-news/
