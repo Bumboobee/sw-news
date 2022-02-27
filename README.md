@@ -1,5 +1,5 @@
 ## SW-news
-The **[SW news](https://bumboobee.github.io/SW-news/)** is the place to see the latest [Mavel](https://www.marvel.com/) works and get alert for what is coming.
+The **[SW news](https://bumboobee.github.io/SW-news/)** is the place to see the latest **[Mavel](https://www.marvel.com/)** works and get alert for what is coming.
 
 That project has a special place in my heart... This is the **update version** of my **[first web project](https://bumboobee.github.io/SW-news/)**, 
 back in november 2021, when i first mett the **[front-end world ❤](https://github.com/Bumboobee?tab=repositories)**
@@ -17,8 +17,10 @@ Since the **[prototype on figma](https://www.figma.com/file/iwTpVuhCe5GgBtVYnB2l
  **The final result you can see [➡here⬅](https://bumboobee.github.io/SW-news/)**
  
 <div align="center">
-![spiderman-stan-lee](https://user-images.githubusercontent.com/94147847/155893979-c2b0e861-603e-45a6-aed6-214abda514d6.gif)
 
- > A journey of a thousand miles begins with a single step.
+![spiderman-stan-lee](https://user-images.githubusercontent.com/94147847/155894111-206110bf-1d68-4f33-98ad-e70e6c51b4a0.gif)
+
+ > Keep moving forward, and if it's time to go, it's time.
  >> **Stanley Martin Lieber**
-<div \> 
+<div \>
+
